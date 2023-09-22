@@ -26,12 +26,10 @@ builds:
     goos:
       - darwin
       - linux
-      - freebsd
+
     goarch:
       - amd64
       - arm64
-      - ppc64le
-      - s390x
     env:
       - CGO_ENABLED=0
 archives:
