@@ -28,7 +28,7 @@ linters:
     - govet
     - revive
     - ineffassign
-    - deadcode
+
 
 issues:
   exclude-use-default: false
